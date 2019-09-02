@@ -1,0 +1,9 @@
+server:
+  port: 6064
+  
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.0.135:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=true
+    username: root
+    password: deepthink
+    driver-class-name: com.mysql.cj.jdbc.Driver
