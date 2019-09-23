@@ -7,3 +7,9 @@ spring:
     username: root
     password: deepthink
     driver-class-name: com.mysql.cj.jdbc.Driver
+
+    
+mybatis:
+  mapper-locations: classpath:sql/*Mapper.xml
+  configuration:
+   map-underscore-to-camel-case: true
